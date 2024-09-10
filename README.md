@@ -19,7 +19,7 @@
 <a href="#tests"> Tests </a>
 </li>
 <li>
-<a href="#screenshot-and-video"> Screenshot and Video </a>
+<a href="#screenshot"> Screenshot </a>
 </li>
 </ol>
 
@@ -30,7 +30,7 @@ A notes or code snippets with or without an internet connection.
 ## Installation
 
 ```
-npm i
+npm run install
 ```
 
 Dependencies differ in main, client and server
@@ -57,7 +57,11 @@ Git clone or fork the repository and create a feature for me ❤️
 ## Tests
 
 Give it a shot!
+<br>
+Deployed on render:
+<br>
+https://text-editor-x2ih.onrender.com
 
-## Screenshot and Video
-
-In-progress
+## Screenshot
+The following image shows the web application's appearance and functionality:
+![Screenshot of main page](./assets/image.png)
