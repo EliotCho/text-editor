@@ -1,22 +1,12 @@
 {
   "name": "text-editor",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack --watchAll"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "code-mirror-themes": "^1.0.0",
-    "idb": "^6.1.2"
-  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
@@ -32,5 +22,10 @@
     "webpack-dev-server": "^4.0.0",
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.2.4"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "code-mirror-themes": "^1.0.0",
+    "idb": "^6.1.2"
   }
 }
